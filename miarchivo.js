@@ -15,7 +15,9 @@ const Producto1 = new Producto("Yerba mate", "Taraguí","1 kg", 500)
 const Producto2 = new Producto("Azucar", "Ledezma","1 kg", 250)
 
 console.log(Producto1);
+Producto1.mostrar()
 console.log(Producto2);
+Producto2.mostrar()
 
 let suma = Producto1.precio + Producto2.precio
 
