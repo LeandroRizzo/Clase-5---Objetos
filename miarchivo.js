@@ -1,4 +1,3 @@
-
 class Producto{
     constructor(tipo,marca,tamaño,precio){
         this.tipo = tipo,
