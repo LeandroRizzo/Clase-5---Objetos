@@ -21,3 +21,7 @@ Producto2.mostrar()
 let suma = Producto1.precio + Producto2.precio
 
 console.log(`El total de la compra es de $${suma}`);
+
+let donacion = Number(prompt("¿Cuanto queres sumar para donación?"));
+
+console.log(suma + donacion);
