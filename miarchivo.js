@@ -13,15 +13,14 @@ class Producto{
 const Producto1 = new Producto("Yerba mate", "Taraguí","1 kg", 500)
 const Producto2 = new Producto("Azucar", "Ledezma","1 kg", 250)
 
-console.log(Producto1);
 Producto1.mostrar()
-console.log(Producto2);
 Producto2.mostrar()
+
+Producto1.marca = prompt("Elige si deseas otra marca de yerba")
+Producto2.marca = prompt("Elige si deseas otra marca de azucar")
+
+console.log(`Marcas seleccionadas: ${Producto1.marca} y ${Producto2.marca}`);
 
 let suma = Producto1.precio + Producto2.precio
 
 console.log(`El total de la compra es de $${suma}`);
-
-let donacion = Number(prompt("¿Cuanto queres sumar para donación?"));
-
-console.log(suma + donacion);
